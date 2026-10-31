@@ -1,0 +1,31 @@
+---
+title: "About"
+description: "About Matt Gross — a technical product leader working at the intersection of product, data, and engineering."
+toc: false
+---
+
+I'm Matt — a technical product leader who works at the intersection of product, data, and engineering. Most of what I do comes down to one question: **how do we make better decisions faster?**
+
+That usually means building analytics products people actually use, designing measurement before dashboards, and making experimentation a habit rather than an event.
+
+## What I do
+
+- **Product leadership for data-heavy products** — strategy, roadmaps, and the day-to-day judgment calls that come with technical products.
+- **Analytics and measurement** — deciding what to measure, making the numbers trustworthy, and getting them in front of the people who need them.
+- **Experimentation and optimization** — test design, guardrails, and the organizational cadence that turns isolated experiments into compounding learning.
+- **Writing** — I use this site to think out loud about all of the above. The [writing section](writing.qmd) is where that lands.
+
+## How I work
+
+A few principles I keep coming back to:
+
+1. **Instrument before you optimize.** Most "optimization" problems are measurement problems in disguise.
+2. **Ship small, learn fast.** Small, reversible changes beat big, unshippable plans.
+3. **Write it down.** A decision that isn't written down doesn't exist yet.
+4. **Strong opinions, loosely held** — with data to back them wherever possible.
+
+## About this site
+
+This site is deliberately a work in progress — I'm building it in the open with Quarto and GitHub Pages, and the roadmap lives on the [projects page](projects.qmd). If something here is broken or missing, that's honest, not careless.
+
+The fastest way to reach me is on the [contact page](contact.qmd).

@@ -1,0 +1,35 @@
+---
+title: "Leading Without Being the Best Engineer in the Room"
+date: 2026-09-21
+categories: [Leadership, Career]
+description: "Technical credibility for a product leader doesn't mean out-coding the team. It means asking better questions and making their work visible."
+---
+
+Early on, I thought technical credibility as a leader meant being the best engineer in the room — out-designing the architects, catching the edge cases, winning the design review. It took me too long to see what that actually buys you: a room full of engineers who've learned to wait for your answer instead of finding theirs.
+
+The job isn't to be the best engineer in the room. Often you shouldn't even try — the team you've hired is better at it than you are. The job is to make the room *smarter* than it would be without you.
+
+## What "technical" actually means for a leader
+
+For a product or engineering leader, technical credibility is mostly about judgment, not syntax:
+
+- **Asking the question nobody asked yet.** "What happens to this batch job when the experiment doubles write volume?" You don't need to fix it — you need to notice it before the incident does.
+- **Understanding tradeoffs well enough to make them honestly.** Latency vs. cost, consistency vs. availability, ship-now vs. do-it-right. A leader who can't explain the tradeoff can't defend the decision later.
+- **Smelling the risk.** Which part of this plan, if it goes wrong, takes the quarter with it? That's where the scrutiny belongs.
+
+None of that requires being the strongest programmer present. All of it requires knowing enough to be dangerous — which comes from staying close to the work, not from proving you can do the work.
+
+## Moves that earn trust
+
+I've watched leaders build real technical credibility with a handful of repeatable behaviors:
+
+- **Write things down.** The decision doc that captures *why* — including the options you rejected — is the single highest-leverage artifact a technical leader produces.
+- **Read the design docs.** Not skim — read. Then ask the two questions that make it sharper.
+- **Take the small Ls publicly.** When you got the call wrong, say so, quickly. Nothing buys credibility faster.
+- **Give the work back.** "You know this system better than I do — what would you do?" is not a rhetorical device. Use it like one.
+
+## The uncomfortable part
+
+Here's the trap: proving you're the smartest person in the room is *gratifying*, and it's available every single meeting. Resisting it is a daily practice, not a one-time decision.
+
+But the rooms where the leader makes everyone else better ship better products than the rooms where the leader wins the argument. That's the whole game — and it took me years to stop playing the wrong one.

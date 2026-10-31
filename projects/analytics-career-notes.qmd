@@ -1,0 +1,37 @@
+---
+title: "Analytics Career Notes"
+description: "Frameworks and honest advice on growing from analyst IC to technical leader."
+toc: true
+---
+
+::: {.status-pill .planned}
+Planned
+:::
+
+## Motivation
+
+Career advice for analysts is dominated by two unhelpful genres: listicles ("10 skills for 2026!") and survivorship-flavored memoirs. What's missing is the honest middle — how the actual transitions work, what the tradeoffs are, and how to tell which path you even want.
+
+This project grows directly out of my post [Career Paths for Analysts Who Don't Want to Manage](/posts/analyst-career-paths.qmd) — the response to it suggested there's an appetite for a fuller treatment.
+
+## Scope
+
+A growing collection of short, opinionated notes on the transitions that matter:
+
+- **IC growth** — depth, scope, influence, and ownership as the real axes of growth.
+- **The manager decision** — what management actually trades, and how to test-drive it before committing.
+- **The technical pivot** — moving from analyst to analytics engineer, data scientist, or PM without starting over.
+- **Interviewing and portfolio-building** — how to show judgment, not just tool fluency.
+
+Each note takes a position — that's the point. Advice that hedges every claim is worthless.
+
+## Status & roadmap
+
+- [ ] IC growth framework expanded to a full note
+- [ ] The manager decision: questions to ask yourself (and your manager)
+- [ ] Portfolio guide for analysts
+- [ ] Collection index page
+
+## What success looks like
+
+Someone a few years behind me reads a note and makes a career decision — either direction — with clearer eyes than they would have. Ambition-agnostic: the best outcome is a good *fit*, not a promotion.

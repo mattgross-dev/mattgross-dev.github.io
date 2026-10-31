@@ -1,0 +1,8 @@
+# Options here apply to all documents in this folder.
+# Front matter in an individual post overrides these defaults.
+
+author: "Matt Gross"
+toc: false
+
+# Categories used across this site's posts:
+# Analytics, Leadership, Product, Career

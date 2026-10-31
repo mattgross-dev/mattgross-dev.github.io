@@ -1,0 +1,63 @@
+---
+title: "Projects"
+description: "Current and planned projects from Matt Gross — statuses kept honest."
+toc: false
+---
+
+A small, deliberate set of projects — one in development, the rest planned. Statuses are kept honest on purpose; I'd rather show intent than inflate progress.
+
+::: {.project-grid}
+
+::: {.project-card}
+::: {.status-pill .in-development}
+In development
+:::
+
+### [Portfolio & writing platform](projects/portfolio-platform.qmd)
+
+The site you're reading — built with Quarto and GitHub Pages, with a custom editorial design system, RSS feed, and dark mode.
+:::
+
+::: {.project-card}
+::: {.status-pill .planned}
+Planned
+:::
+
+### [Analytics project templates](projects/analytics-templates.qmd)
+
+Opinionated, reusable starting points for common analytics work — measurement plans, dashboard scaffolds, and pipeline hygiene checks.
+:::
+
+::: {.project-card}
+::: {.status-pill .planned}
+Planned
+:::
+
+### [Experimentation playbook](projects/experimentation-playbook.qmd)
+
+A practical, opinionated reference for running trustworthy A/B tests — from power analysis to guardrails to honest readouts.
+:::
+
+::: {.project-card}
+::: {.status-pill .planned}
+Planned
+:::
+
+### [Data quality starter kit](projects/data-quality-starter-kit.qmd)
+
+Lightweight, copy-paste checks for catching broken pipelines before your stakeholders do.
+:::
+
+::: {.project-card}
+::: {.status-pill .planned}
+Planned
+:::
+
+### [Analytics career notes](projects/analytics-career-notes.qmd)
+
+A growing collection of frameworks and honest advice on growing from analyst IC to technical leader.
+:::
+
+:::
+
+Each project has its own page with the motivation, planned scope, and what success looks like.

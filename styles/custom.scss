@@ -1,0 +1,49 @@
+/*-- scss:defaults --*/
+
+// ---------------------------------------------------------------------------
+// Matt Gross — mattgross.com
+// Light-mode SASS defaults (compiled with the litera base theme).
+// Mode-agnostic design rules live in styles/site.css.
+// Dark-mode equivalents live in styles/custom-dark.scss (keep in sync).
+// ---------------------------------------------------------------------------
+
+// Typography -----------------------------------------------------------------
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-serif: "Newsreader", Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace !default;
+
+$font-family-base: $font-family-serif !default;
+$headings-font-family: $font-family-serif !default;
+$headings-font-weight: 600 !default;
+
+// Palette — warm paper, charcoal ink, slate accents ----------------------------
+$primary: #46586b !default;
+$secondary: #6e675c !default;
+
+$body-bg: #faf8f3 !default;
+$body-color: #2b2823 !default;
+$text-muted: #6e675c !default;
+
+$link-color: #46586b !default;
+$link-hover-color: #33414f !default;
+
+$navbar-bg: #faf8f3 !default;
+$navbar-fg: #2b2823 !default;
+$navbar-hl: #46586b !default;
+
+$footer-bg: #faf8f3 !default;
+$footer-fg: #6e675c !default;
+
+$code-bg: #f1ede4 !default;
+$code-color: #7a4c2e !default;
+
+$border-color: #e6e1d6 !default;
+
+// Layout — one shared measure for the whole site -------------------------------
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1120px,
+  xxl: 1120px
+) !default;

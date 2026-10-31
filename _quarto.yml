@@ -1,0 +1,72 @@
+# =============================================================================
+# Matt Gross — mattgross.com
+# Quarto website project, published with GitHub Pages.
+# =============================================================================
+
+project:
+  type: website
+  output-dir: _site
+  # Copied verbatim into _site so GitHub Pages keeps the custom domain (CNAME)
+  # and crawlers can find the sitemap (robots.txt).
+  resources:
+    - CNAME
+    - robots.txt
+
+website:
+  title: "Matt Gross"
+  site-url: "https://mattgross.com"
+  description: >-
+    Portfolio of Matt Gross — technical product leadership, data analytics,
+    and optimization. Current projects, writing, and ways to get in touch.
+  open-graph:
+    locale: en_US
+    site-name: "Matt Gross"
+
+  navbar:
+    title: "Matt Gross"
+    left:
+      - href: about.qmd
+        text: "About"
+      - href: experience.qmd
+        text: "Experience"
+      - href: projects.qmd
+        text: "Projects"
+      - href: writing.qmd
+        text: "Writing"
+      - href: contact.qmd
+        text: "Contact"
+    tools:
+      - icon: "github"
+        text: "GitHub"
+        href: "https://github.com/mattgross-dev"
+      - icon: "rss"
+        text: "RSS feed"
+        href: "writing.xml"
+
+  footer:
+    left: "© 2026 Matt Gross"
+    center: "Built with [Quarto](https://quarto.org)"
+    right: "[RSS](writing.xml) · [GitHub](https://github.com/mattgross-dev)"
+
+format:
+  html:
+    theme:
+      light: [litera, styles/custom.scss]
+      dark: [slate, styles/custom-dark.scss]
+    # Google Fonts are downloaded and self-hosted at render time (no runtime
+    # requests to Google, better privacy and performance).
+    font:
+      - family: "Newsreader"
+        source: "google"
+      - family: "Inter"
+        source: "google"
+      - family: "JetBrains Mono"
+        source: "google"
+        code: true
+    css: styles/site.css
+    toc: true
+    toc-depth: 2
+    anchor-sections: false
+    page-navigation: true
+    link-external-newwindow: true
+    date-format: "MMMM D, YYYY"

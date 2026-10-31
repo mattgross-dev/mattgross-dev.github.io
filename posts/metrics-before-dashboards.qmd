@@ -1,0 +1,56 @@
+---
+title: "Metrics Before Dashboards"
+date: 2026-10-20
+categories: [Analytics, Product]
+description: "Why deciding what to measure — before building anything visual — is the highest-leverage work in analytics."
+---
+
+Every dashboard problem is secretly a metrics problem.
+
+It's the most common pattern in analytics work: someone asks for a dashboard. The request sounds concrete and easy to act on — pick a tool, wire up the data, ship some charts. Three sprints later, the dashboard exists, nobody opens it, and the conversation shifts to why adoption is low.
+
+The problem is almost never the charts. It's that nobody decided what the numbers *mean* or what decision they're attached to.
+
+## Start with the decision
+
+Before any chart gets built, there's one question that matters: **what will someone do differently depending on what this number says?**
+
+- If the answer is "nothing," you don't have a metrics problem — you have a decoration problem. Skip it.
+- If the answer is "we'd investigate," the metric is a tripwire, and it should be designed like one: cheap, loud, and hard to misread.
+- If the answer is "we'd change the roadmap," the metric is a compass, and it deserves the full treatment — definition, owner, target, review cadence.
+
+Most "failed" dashboards fail because they were built before anyone answered this question. The charts were fine. The thinking wasn't finished.
+
+## Name the metric precisely
+
+Vague metrics produce vague arguments. "Engagement" can mean almost anything, which means it means nothing. A well-named metric answers four things in one sentence:
+
+1. **Definition** — the exact formula, in plain language, with the edge cases called out.
+2. **Grain** — is this per user, per day, per session, per account?
+3. **Window** — trailing 7 days? Calendar month? Point-in-time?
+4. **Owner** — the one person who will be asked when the number looks wrong.
+
+That last one is underrated. A metric with an owner survives; a metric with only a SQL file slowly rots.
+
+## One number beats ten charts
+
+There's a strong temptation, once the data is flowing, to show everything. Resist it. Every chart on a dashboard is a claim on the reader's attention, and attention is the scarce resource.
+
+The dashboards I've seen actually used share a shape:
+
+- **One hero metric** per audience, the number they'd want on a T-shirt.
+- **Two or three supporting metrics** that explain *why* the hero moved.
+- **Nothing decorative.** If a chart can't change a decision, it goes.
+
+## A checklist that saves sprints
+
+Before building the next dashboard, run through this:
+
+- What decision does this support, and who makes it?
+- What would we do if the number went up? Down? Flat?
+- Is the metric written down — definition, grain, window, owner?
+- What's the smallest set of charts that answers the question?
+
+If you can get through that list, the dashboard is almost an afterthought. That's the point: the dashboard is the *output* of clear measurement design, not a substitute for it.
+
+Decide what to measure first. Then the charts draw themselves.

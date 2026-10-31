@@ -1,0 +1,45 @@
+---
+title: "Optimization Is a Product, Not a Project"
+date: 2026-10-06
+categories: [Product, Analytics]
+description: "Treat your experimentation program like a product with users, a roadmap, and a health dashboard — not a one-time initiative."
+---
+
+Teams keep treating experimentation as a project. It has a kickoff, a tool selection, a launch, and — once the novelty wears off — a quiet death. Six months later someone asks why the A/B testing program stopped, and nobody can name the moment it happened.
+
+The fix is a reframe: **your experimentation program is a product.** Its users are the PMs, analysts, and engineers who run tests. Its value proposition is trustworthy answers, cheap and fast. And like any product, it lives or dies on whether you keep investing in it after launch.
+
+## Who are the users?
+
+An experiment platform has real users with real jobs-to-be-done:
+
+- **PMs** want to know whether to ship the thing — and they want the answer fast.
+- **Analysts** want to run trustworthy analysis without re-litigating statistics every time.
+- **Engineers** want instrumentation that doesn't slow feature work to a crawl.
+
+Design for those jobs the way you'd design for any product. If PMs route around the platform because answers take three weeks, that's not a compliance problem — it's a product problem.
+
+## Health metrics for the program itself
+
+If it's a product, it gets a dashboard. A few signals worth watching:
+
+- **Velocity** — how many trustworthy tests reach readout per quarter, and is the trend up?
+- **Decision rate** — what fraction of tests end in a clear ship/kill call, versus ambiguous mush?
+- **Quality** — how many tests launched with a pre-registered hypothesis, power analysis, and guardrails?
+- **Ramp time** — how long from "test designed" to "test running"?
+
+Velocity without quality is a random number generator. Quality without velocity is an ivory tower. You need both, and you need to see them.
+
+## Fund it like a product
+
+Products need ongoing investment, not a big-bang start. In practice:
+
+- **A roadmap.** Next quarter's improvements to the program — not just the experiments it runs.
+- **A maintainer.** Someone owns the templates, the stats review, and the platform. It's real work; give it real capacity.
+- **A feedback loop.** Regular retros with the people who use it — what made a test painful this month?
+
+## The payoff
+
+The teams that make this shift all say versions of the same thing: the value isn't in any single experiment. It's in becoming the kind of team that *runs* experiments — fast, honestly, and without drama.
+
+That's a product you keep shipping. Treat it like one.

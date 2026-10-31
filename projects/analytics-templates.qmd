@@ -1,0 +1,37 @@
+---
+title: "Analytics Project Templates"
+description: "Opinionated, reusable starting points for common analytics work — measurement plans, dashboards, and pipeline hygiene."
+toc: true
+---
+
+::: {.status-pill .planned}
+Planned
+:::
+
+## Motivation
+
+Most analytics work starts from a blank page, which means most analytics work starts with re-deriving the same scaffolding: What should a measurement plan contain? What belongs in a dashboard? What checks should every pipeline have before anyone trusts it?
+
+The blank page is where good projects go to die — or worse, where inconsistent ones survive. When every project invents its own structure, the organization pays a tax on every handoff, review, and rehire.
+
+## Scope
+
+A small set of templates, each with an example, a checklist, and a short "why" — opinionated enough to be useful, small enough to actually get adopted:
+
+- **Measurement plan** — decisions, definitions, grain, windows, owners.
+- **Metrics definition doc** — the one-pager that stops "revenue means six things."
+- **Dashboard scaffold** — hero metric, two supporting metrics, nothing decorative.
+- **Experiment plan** — hypothesis, power analysis, guardrails, stopping rules.
+- **Pipeline hygiene checklist** — freshness, volume, schema, null-rate checks.
+
+## Status & roadmap
+
+- [ ] Measurement plan template (first)
+- [ ] Dashboard scaffold + design review checklist
+- [ ] Experiment plan template
+- [ ] Pipeline hygiene checklist
+- [ ] A short usage guide for each
+
+## What success looks like
+
+A team other than mine uses one of the templates without me in the room — and the resulting document is good enough that I'd have signed off on it.

@@ -1,0 +1,39 @@
+---
+title: "Experience"
+description: "The areas Matt Gross works in: product leadership, data & analytics, and experimentation & optimization."
+toc: true
+---
+
+My work sits at the intersection of **product leadership**, **data & analytics**, and **optimization**. This page summarizes the areas I spend my time on; a full employment history is available on request via the [contact page](contact.qmd).
+
+## Product leadership
+
+I lead technical products end to end: setting direction with stakeholders, writing the roadmap, defining success metrics before work starts, and staying close enough to the engineering to make good tradeoffs. I care most about products where the hard problem is technical — data pipelines, metrics infrastructure, experiment platforms — and where the value shows up in someone else's decision, not a feature list.
+
+What that looks like in practice:
+
+- Turning ambiguous goals into measurable outcomes and written decision records.
+- Prioritization that survives contact with reality — small bets, explicit tradeoffs, and a bias toward reversible decisions.
+- Keeping technical debt and data quality on the roadmap, not in the footnotes.
+
+## Data & analytics
+
+Analytics work succeeds or fails on trust. A number nobody believes is worth less than no number at all, so I spend most of my time on the foundations:
+
+- **Measurement design** — deciding what to measure and why, before anyone opens a BI tool.
+- **Metrics infrastructure** — shared definitions, semantic layers, and the boring discipline that keeps "revenue" from meaning six different things.
+- **Self-serve tooling** — dashboards and exploration built for the questions people actually ask.
+- **Data quality** — checks and ownership that catch broken pipelines before stakeholders do.
+
+## Optimization & experimentation
+
+Experimentation is a system, not a feature. The parts I spend time on:
+
+- **Experiment design** — hypotheses, power analysis, and stopping rules decided before launch, not after the first peek.
+- **Guardrails and metrics hierarchies** — protecting the business while teams chase a single treatment effect.
+- **Velocity** — the platform, templates, and review cadence that make trustworthy tests cheap enough to run often.
+- **Culture** — readouts that reward learning, including from "failed" tests.
+
+## How the pieces fit together
+
+None of these areas work alone. Leadership without measurement is guesswork; measurement without experimentation is commentary; experimentation without leadership is a random walk. The products I want to build are the ones that make decisions measurably better across all three.

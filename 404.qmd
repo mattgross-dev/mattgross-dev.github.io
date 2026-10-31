@@ -1,0 +1,13 @@
+---
+title: "Page not found"
+description: "That page doesn't exist on mattgross.com."
+toc: false
+---
+
+The page you're looking for doesn't exist (or moved without leaving a forwarding address).
+
+::: {.hero-actions}
+[Back to the homepage](index.qmd){.btn-cta}
+:::
+
+Popular destinations: [About](about.qmd) · [Experience](experience.qmd) · [Projects](projects.qmd) · [Writing](writing.qmd) · [Contact](contact.qmd)

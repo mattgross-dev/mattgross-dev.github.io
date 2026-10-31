@@ -1,0 +1,42 @@
+---
+title: "Career Paths for Analysts Who Don't Want to Manage"
+date: 2026-08-18
+categories: [Career, Analytics]
+description: "People leadership isn't the only way up. IC tracks, growth axes, and how to tell which path you actually want."
+---
+
+A persistent and slightly weird belief in data teams: if you get good enough at analytics, eventually someone hands you direct reports. And if you *don't* want them? The polite version of the assumption is that you've chosen to stop growing.
+
+That was maybe true once, in organizations with exactly one ladder. It isn't true now, in any serious data organization. But making the IC path work still takes deliberate effort, and the first step is understanding what growth even means when "more reports" isn't the answer.
+
+## Two ladders, honestly compared
+
+- **The management ladder** trades depth for leverage-through-people. Your impact is the team's output: hiring, coaching, prioritization, shielding. The work is slower-burning, more interrupt-driven, and — this is the part people forget — it's a genuine career change, not a promotion.
+- **The IC ladder** keeps your hands on the work. Growth means bigger problems, messier ambiguity, and influence that has to be earned without org-chart authority.
+
+Both are real careers. The failure mode is drifting up one of them because it was *time*, without asking which one you actually want.
+
+## What IC growth actually looks like
+
+"Senior" and "staff" analyst titles differ by organization, but the growth axes underneath them are pretty consistent:
+
+- **Depth** — from writing queries to designing the semantic layer everyone else queries.
+- **Scope** — from "the marketing dashboard" to "how this company decides anything with data."
+- **Influence** — from answering questions to changing which questions get asked.
+- **Ownership** — from executing analyses to deciding what analysis is worth doing at all.
+
+Notice that none of those require direct reports. All of them require an organization that knows the path exists — which leads to the practical part.
+
+## Making the IC path work
+
+Three things that matter more than the title:
+
+1. **Negotiate for scope, not seniority.** Ask for the ambiguous, cross-cutting problem, not the compensation review. Scope is what compounds; titles follow scope more reliably than scope follows titles.
+2. **Build leverage that doesn't need org authority.** Templates, tooling, standards, decision documents. If your influence survives your manager leaving, it's real.
+3. **Say the quiet part out loud.** Tell your manager, explicitly, that you're optimizing for the IC path. Too many analysts get "managed" by default because they never said otherwise.
+
+## The honest caveat
+
+The IC ladder is real, but it's also newer, and some organizations still run it badly — staff analysts who are just senior analysts with more meetings. Due diligence works the same as any career decision: look at where the current staff-level ICs *actually* spend their time, and decide if you want that job.
+
+If you do, it's a great one. Growth was never about headcount. It was always about the size of the problems people trust you with.

@@ -1,0 +1,496 @@
+/* ==========================================================================
+   Matt Gross — mattgross.com
+   Mode-agnostic design rules. This stylesheet is loaded after both the light
+   and dark theme CSS, so it applies in both modes. Colors come from the CSS
+   custom properties below; :root holds the light values and
+   [data-bs-theme="dark"] redefines them for dark mode.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Design tokens
+   -------------------------------------------------------------------------- */
+:root {
+  --mg-bg: #faf8f3;             /* warm off-white paper */
+  --mg-surface: #ffffff;        /* card surfaces */
+  --mg-text: #2b2823;           /* warm charcoal ink */
+  --mg-text-soft: #55504a;      /* secondary prose */
+  --mg-muted: #6e675c;          /* meta text, captions */
+  --mg-accent: #46586b;         /* slate */
+  --mg-accent-strong: #33414f;   /* slate, darker (hover) */
+  --mg-accent-soft: rgba(70, 88, 107, 0.08);
+  --mg-on-accent: #ffffff;       /* text on accent fills */
+  --mg-border: #e6e1d6;
+  --mg-code-bg: #f1ede4;
+  --mg-shadow: 0 1px 2px rgba(43, 40, 35, 0.05), 0 10px 28px rgba(43, 40, 35, 0.07);
+}
+
+[data-bs-theme="dark"] {
+  --mg-bg: #202329;              /* charcoal */
+  --mg-surface: #262a31;
+  --mg-text: #ece8df;            /* warm off-white */
+  --mg-text-soft: #c9c4ba;
+  --mg-muted: #a29c91;
+  --mg-accent: #9db4cc;          /* light slate */
+  --mg-accent-strong: #c3d2e2;
+  --mg-accent-soft: rgba(157, 180, 204, 0.1);
+  --mg-on-accent: #1d2733;
+  --mg-border: #363c45;
+  --mg-code-bg: #2a2e35;
+  --mg-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 10px 28px rgba(0, 0, 0, 0.35);
+}
+
+::selection {
+  background: var(--mg-accent);
+  color: var(--mg-on-accent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--mg-accent);
+  outline-offset: 2px;
+}
+
+/* --------------------------------------------------------------------------
+   2. Base typography
+   -------------------------------------------------------------------------- */
+body {
+  background-color: var(--mg-bg);
+  color: var(--mg-text);
+}
+
+main.content {
+  font-size: 1.05rem;
+}
+
+main.content p {
+  line-height: 1.75;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--mg-text);
+  letter-spacing: -0.01em;
+}
+
+main.content h2 {
+  margin-top: 2.75rem;
+  padding-bottom: 0.35rem;
+}
+
+main.content a {
+  color: var(--mg-accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--mg-border);
+}
+
+main.content a:hover {
+  color: var(--mg-accent-strong);
+  text-decoration-color: currentColor;
+}
+
+code {
+  background-color: var(--mg-code-bg);
+}
+
+pre {
+  background-color: var(--mg-code-bg);
+  border: 1px solid var(--mg-border);
+  border-radius: 10px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--mg-border);
+  margin-block: 2.5rem;
+}
+
+blockquote {
+  border-left: 3px solid var(--mg-accent);
+  background-color: var(--mg-accent-soft);
+  border-radius: 0 8px 8px 0;
+  padding: 0.9rem 1.4rem;
+  font-style: italic;
+  color: var(--mg-text-soft);
+}
+
+/* --------------------------------------------------------------------------
+   3. Layout — keep the main column at a readable measure (~880px)
+   -------------------------------------------------------------------------- */
+@media (min-width: 992px) {
+  #quarto-content main.content {
+    max-width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   4. Navbar
+   -------------------------------------------------------------------------- */
+.navbar {
+  background-color: var(--mg-bg);
+  border-bottom: 1px solid var(--mg-border);
+  box-shadow: none;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
+.navbar .navbar-brand {
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: -0.01em;
+  color: var(--mg-text);
+}
+
+.navbar .navbar-brand:hover {
+  color: var(--mg-accent);
+}
+
+.navbar .nav-link {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: var(--mg-text-soft);
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: var(--mg-accent);
+}
+
+.navbar .nav-link.active {
+  color: var(--mg-accent);
+  font-weight: 600;
+}
+
+/* --------------------------------------------------------------------------
+   5. Hero (homepage)
+   -------------------------------------------------------------------------- */
+.hero {
+  padding-top: 4.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.hero .hero-eyebrow {
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--mg-muted);
+  margin-bottom: 1.1rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 6vw, 3.4rem);
+  font-weight: 600;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.1rem;
+}
+
+.hero .lede {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: var(--mg-text-soft);
+  max-width: 34em;
+  margin-bottom: 1rem;
+}
+
+.hero .hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2.2rem;
+}
+
+/* --------------------------------------------------------------------------
+   6. CTA buttons
+   -------------------------------------------------------------------------- */
+.btn-cta,
+.btn-outline-cta {
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.65rem 1.4rem;
+  border-radius: 8px;
+  text-decoration: none !important;
+  border: 1.5px solid transparent;
+  transition: background-color 0.15s ease, color 0.15s ease,
+    border-color 0.15s ease, transform 0.15s ease;
+}
+
+.btn-cta {
+  background-color: var(--mg-accent);
+  color: var(--mg-on-accent) !important;
+}
+
+.btn-cta:hover {
+  background-color: var(--mg-accent-strong);
+  color: var(--mg-on-accent) !important;
+  transform: translateY(-1px);
+}
+
+.btn-outline-cta {
+  border-color: var(--mg-border);
+  color: var(--mg-text) !important;
+}
+
+.btn-outline-cta:hover {
+  border-color: var(--mg-accent);
+  color: var(--mg-accent) !important;
+  transform: translateY(-1px);
+}
+
+/* --------------------------------------------------------------------------
+   7. Eyebrow section headings (used on homepage grids)
+   -------------------------------------------------------------------------- */
+h2.eyebrow-heading {
+  font-family: "Inter", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mg-muted);
+  margin-top: 3.25rem;
+  margin-bottom: 1.35rem;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+h2.eyebrow-heading::after {
+  content: "";
+  display: block;
+  width: 44px;
+  height: 2px;
+  background: var(--mg-accent);
+  margin-top: 0.55rem;
+}
+
+/* --------------------------------------------------------------------------
+   8. Card grids — homepage focus areas & projects page
+   -------------------------------------------------------------------------- */
+.focus-grid,
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.focus-card,
+.project-card {
+  background-color: var(--mg-surface);
+  border: 1px solid var(--mg-border);
+  border-radius: 12px;
+  padding: 1.4rem 1.5rem;
+  box-shadow: var(--mg-shadow);
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.focus-card:hover,
+.project-card:hover {
+  border-color: var(--mg-accent);
+  transform: translateY(-2px);
+}
+
+.focus-card h3,
+.project-card h3 {
+  margin-top: 0.2rem;
+  margin-bottom: 0.55rem;
+  font-size: 1.08rem;
+  font-weight: 650;
+}
+
+.project-card h3 a {
+  color: var(--mg-text);
+  text-decoration: none;
+}
+
+.project-card h3 a:hover {
+  color: var(--mg-accent);
+}
+
+.focus-card p,
+.project-card p {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--mg-text-soft);
+  margin-bottom: 0;
+}
+
+/* --------------------------------------------------------------------------
+   9. Status pills
+   -------------------------------------------------------------------------- */
+.status-pill {
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  padding: 0.22rem 0.7rem;
+  border-radius: 999px;
+  margin-bottom: 0.6rem;
+}
+
+.status-pill.in-development {
+  background-color: var(--mg-accent-soft);
+  color: var(--mg-accent);
+  border: 1px solid var(--mg-accent);
+}
+
+.status-pill.planned {
+  background-color: transparent;
+  color: var(--mg-muted);
+  border: 1px dashed var(--mg-muted);
+}
+
+/* --------------------------------------------------------------------------
+   10. Listing styles (homepage recent writing & writing page)
+   -------------------------------------------------------------------------- */
+.quarto-listing {
+  font-family: "Inter", sans-serif;
+}
+
+.quarto-listing .listing-title {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.quarto-listing .listing-title a {
+  color: var(--mg-text);
+  text-decoration: none;
+}
+
+.quarto-listing .listing-title a:hover {
+  color: var(--mg-accent);
+}
+
+.quarto-listing .listing-description {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 0.98rem;
+  color: var(--mg-text-soft);
+  line-height: 1.6;
+}
+
+.quarto-listing .listing-date,
+.quarto-listing .listing-author,
+.quarto-listing .listing-category {
+  font-size: 0.8rem;
+  color: var(--mg-muted);
+}
+
+.quarto-listing .listing-category {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.quarto-listing .quarto-post {
+  border-left: 2px solid transparent;
+  transition: border-color 0.15s ease;
+}
+
+.quarto-listing .quarto-post:hover {
+  border-left-color: var(--mg-accent);
+}
+
+/* --------------------------------------------------------------------------
+   11. Title blocks (page headers on non-home pages)
+   -------------------------------------------------------------------------- */
+main.content > .title-block,
+#title-block-header {
+  margin-bottom: 2.25rem;
+}
+
+#title-block-header .title,
+.title-block h1.title {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: clamp(2.1rem, 5vw, 2.8rem);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+
+#title-block-header .subtitle,
+.title-block p.subtitle {
+  font-size: 1.15rem;
+  color: var(--mg-text-soft);
+  margin-bottom: 0.75rem;
+}
+
+#title-block-header .description,
+#title-block-header .author,
+#title-block-header .date {
+  color: var(--mg-muted);
+  font-size: 0.9rem;
+}
+
+/* --------------------------------------------------------------------------
+   12. Footer
+   -------------------------------------------------------------------------- */
+.navbar-footer {
+  border-top: 1px solid var(--mg-border);
+  margin-top: 4.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-family: "Inter", sans-serif;
+  font-size: 0.88rem;
+  color: var(--mg-muted);
+  background-color: var(--mg-bg);
+}
+
+.navbar-footer a {
+  color: var(--mg-text-soft);
+  text-decoration: none;
+}
+
+.navbar-footer a:hover {
+  color: var(--mg-accent);
+  text-decoration: underline;
+}
+
+/* --------------------------------------------------------------------------
+   13. Callouts & tables — tie Bootstrap defaults to the palette
+   -------------------------------------------------------------------------- */
+.callout {
+  border-radius: 10px;
+  border-left: 3px solid var(--mg-accent);
+  background-color: var(--mg-surface);
+}
+
+.callout .callout-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 650;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.95rem;
+}
+
+table th {
+  font-family: "Inter", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--mg-muted);
+  border-bottom: 2px solid var(--mg-border);
+  padding: 0.55rem 0.75rem;
+}
+
+table td {
+  border-bottom: 1px solid var(--mg-border);
+  padding: 0.6rem 0.75rem;
+  color: var(--mg-text-soft);
+}
+
+table tbody tr:hover td {
+  background-color: var(--mg-surface);
+}

@@ -1,0 +1,38 @@
+---
+title: "Data Quality Starter Kit"
+description: "Lightweight, copy-paste checks for catching broken pipelines before your stakeholders do."
+toc: true
+---
+
+::: {.status-pill .planned}
+Planned
+:::
+
+## Motivation
+
+Data quality problems are rarely exotic. The overwhelming majority are the same five failures — stale data, volume collapse, schema drift, null explosions, and duplicate rows — arriving in slightly different costumes.
+
+Full observability platforms are great, but they're heavy for small teams, and the first 80% of protection is available to anyone with a query runner and fifteen minutes. That's the gap: a starter kit that assumes *no* platform, just queries you paste into whatever scheduler you already have.
+
+## Scope
+
+A deliberately small kit — a SQL-first checklist covering the five common failure modes:
+
+- **Freshness** — is the table actually updating on schedule?
+- **Volume** — did row counts collapse or explode versus the trailing baseline?
+- **Schema** — did columns vanish, get renamed, or silently change type?
+- **Nulls** — did a key column's null rate jump?
+- **Duplicates** — did grain break without telling anyone?
+
+Each check ships as a plain query, an expected-output convention, and a one-line explanation of what it catches. Plus a short guide to wiring them into cron, GitHub Actions, or a dbt test — wherever you already live.
+
+## Status & roadmap
+
+- [ ] Freshness + volume checks (first)
+- [ ] Schema, null, and duplicate checks
+- [ ] Scheduler integration guide (cron / Actions / dbt)
+- [ ] A worked "this would have caught it" incident example
+
+## What success looks like
+
+A stakeholder says "is the data fresh?" and someone on the team can answer with evidence in under a minute — because the checks were pasted in months ago and everyone forgot they were there. That's the good outcome: boring, invisible reliability.

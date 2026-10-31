@@ -1,0 +1,47 @@
+---
+title: "The Unwritten Job of a Technical PM"
+date: 2026-09-07
+categories: [Leadership, Product]
+description: "The most valuable parts of technical product management rarely appear in a job description: translation, memory, and taste."
+---
+
+Job descriptions for technical PMs are mostly lists of artifacts: roadmaps, PRDs, launch plans. All real, all necessary — and none of them the reason good technical PMs are valuable.
+
+The parts of the job that actually matter rarely make it into the posting. Three of them, in rough order of how often they're underestimated:
+
+## Translation
+
+Every technical organization is bilingual, and most people don't realize it. Engineering speaks in constraints, risks, and implementation sequencing. The business speaks in outcomes, commitments, and dates. Both sides sincerely believe they're being clear. Both sides routinely misunderstand each other.
+
+The technical PM's core skill is being natively fluent in both — and translating *idiomatically*, not literally:
+
+- "That'll take six weeks" becomes "we can do it in two if we skip X, and here's what X costs us."
+- "We need it by Q3" becomes "here's the smallest version that serves Q3, and here's what has to be true for the rest to follow."
+
+Literal translation — relaying sentences with more meetings — is what gives program managers a bad name. Idiomatic translation is why certain PMs become irreplaceable.
+
+## Memory
+
+Organizations forget. The decision everyone made in January is relitigated in April, not because anyone is malicious, but because nobody wrote it down and four people have joined since.
+
+A technical PM is the institution's memory for decisions:
+
+- **Written decision records** — what we chose, what we rejected, and why.
+- **The buried constraint** — "we can't use that vendor, and the reason is a contract clause, ask me before you spend a week."
+- **The half-finished idea** — the thing we shelved in March that is suddenly the answer to a November problem.
+
+None of this is glamorous. It's the difference between a team that compounds its learning and one that has the same arguments every quarter with new faces.
+
+## Taste
+
+The word shows up in every hiring conversation and almost no job description. But look at the products a team ships and you can taste it — or its absence:
+
+- **A quality bar that doesn't move.** The demo that's a little rough, the edge case that "we'll get to," the launch that's 90% polished. Every one is a vote on what "good" means here.
+- **Knowing what not to build.** Taste is mostly subtraction — defending the product's coherence against the accumulated weight of good ideas.
+- **Caring about the last 10%.** Not perfectionism for its own sake, but the belief that the difference between shipped and *shipped* is where trust gets built.
+
+## The artifact part matters too
+
+None of this excuses sloppy roadmaps or vague PRDs — artifacts are how translation, memory, and taste scale beyond one person's head. The point is direction of fit: the documents exist to serve the judgment, not the other way around.
+
+Roadmaps are table stakes. The unwritten job is why you're at the table.

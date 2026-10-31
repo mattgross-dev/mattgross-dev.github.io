@@ -1,0 +1,34 @@
+---
+title: "Portfolio & Writing Platform"
+description: "The site you're reading — a Quarto-based portfolio and writing platform for mattgross.com."
+toc: true
+---
+
+::: {.status-pill .in-development}
+In development
+:::
+
+## Motivation
+
+I wanted a home on the web that I fully own and control — somewhere to collect projects, publish writing, and be findable on my own terms. Third-party platforms are fine for distribution, but a personal domain is the only portfolio that doesn't decay when a company pivots.
+
+It's also a deliberate dogfooding exercise: the site is built, designed, and deployed with the same tools and practices I write about — version-controlled, reproducible, and honest about its own state.
+
+## Scope
+
+- **Static site generation** with Quarto — one toolchain for pages, blog, and future notebooks/technical posts.
+- **Custom editorial design** — self-hosted fonts (Newsreader, Inter, JetBrains Mono), warm off-white light theme, charcoal dark theme, no frameworks beyond what Quarto ships.
+- **Writing platform** — listing-based blog with categories, RSS feed, and OG meta tags for decent link previews.
+- **Deploys** — GitHub Pages via a GitHub Actions workflow that renders and publishes on push to `main`.
+
+## Status & roadmap
+
+- [x] Site scaffolding, navigation, design system
+- [x] Initial pages and first five essays
+- [ ] Continuous-deployment polish (deploy previews on PRs)
+- [ ] Search (client-side index)
+- [ ] Reading time and post series support
+
+## What success looks like
+
+A site I'm not embarrassed to link in a bio, that costs almost nothing to run, that publishes a new essay with a single commit — and that reliably shows up in search results for my name within a few months.

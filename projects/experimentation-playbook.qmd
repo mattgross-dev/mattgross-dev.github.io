@@ -1,0 +1,35 @@
+---
+title: "Experimentation Playbook"
+description: "A practical, opinionated reference for running trustworthy A/B tests — design, guardrails, and honest readouts."
+toc: true
+---
+
+::: {.status-pill .planned}
+Planned
+:::
+
+## Motivation
+
+Experimentation knowledge is weirdly tribal: every organization rediscovers the same hard lessons — peeking, underpowered tests, metric collisions — and most write-ups are either academic or vendor marketing. I want the reference I wish existed when I was learning: practical, opinionated, and honest about tradeoffs.
+
+This will collect and expand on ideas from my post [Optimization Is a Product, Not a Project](/posts/optimization-is-a-product.qmd) — the playbook is the "how" to that post's "why."
+
+## Scope
+
+- **Before the test** — hypothesis writing, power analysis, metric selection, guardrails.
+- **During the test** — stopping rules, peeking (and why dashboards lie), ramping.
+- **After the test** — honest readouts, failed tests that were worth running, and when *not* to A/B test at all.
+- **The system around it** — velocity metrics, review cadence, and the org design that makes all of it stick.
+
+Each section gets a worked example with real-ish numbers — the plan is to generate realistic synthetic data so examples are reproducible without leaking anything confidential.
+
+## Status & roadmap
+
+- [ ] Outline and structure locked
+- [ ] Power analysis chapter with worked example
+- [ ] Guardrails and metric hierarchies chapter
+- [ ] Readout template
+
+## What success looks like
+
+Someone runs a better test because of a chapter they read here — and can cite *why* to their leadership without needing me in the room.

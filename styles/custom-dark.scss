@@ -1,0 +1,49 @@
+/*-- scss:defaults --*/
+
+// ---------------------------------------------------------------------------
+// Matt Gross — mattgross.com
+// Dark-mode SASS defaults (compiled with the slate base theme into the
+// [data-bs-theme="dark"] stylesheet).
+// Keep typography and layout variables in sync with styles/custom.scss.
+// ---------------------------------------------------------------------------
+
+// Typography (the dark stylesheet compiles separately, so repeat these) --------
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-serif: "Newsreader", Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace !default;
+
+$font-family-base: $font-family-serif !default;
+$headings-font-family: $font-family-serif !default;
+$headings-font-weight: 600 !default;
+
+// Palette — charcoal background, warm off-white text, light slate accents ------
+$primary: #9db4cc !default;
+$secondary: #a29c91 !default;
+
+$body-bg: #202329 !default;
+$body-color: #ece8df !default;
+$text-muted: #a29c91 !default;
+
+$link-color: #9db4cc !default;
+$link-hover-color: #c3d2e2 !default;
+
+$navbar-bg: #202329 !default;
+$navbar-fg: #ece8df !default;
+$navbar-hl: #9db4cc !default;
+
+$footer-bg: #202329 !default;
+$footer-fg: #a29c91 !default;
+
+$code-bg: #2a2e35 !default;
+$code-color: #d8b48f !default;
+
+$border-color: #363c45 !default;
+
+// Layout — must match the light theme ------------------------------------------
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1120px,
+  xxl: 1120px
+) !default;

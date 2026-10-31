@@ -1,0 +1,30 @@
+---
+title: "Contact"
+description: "How to reach Matt Gross — feedback, collaboration, and conversation."
+toc: false
+---
+
+Thanks for reading this far. I'm happiest talking about analytics, experimentation, product leadership, and the unglamorous work that makes data trustworthy.
+
+::: {.callout-note}
+## Fastest route
+
+The best way to reach me right now is through GitHub — [github.com/mattgross-dev](https://github.com/mattgross-dev). Open an issue or start a discussion on [this site's repository](https://github.com/mattgross-dev/mattgross-dev.github.io) and I'll see it.
+:::
+
+<!-- Personalization note: once confirmed, add a preferred email address here,
+     e.g. "Email: hello@mattgross.com" as a second route, and remove this
+     comment. Avoid posting a scraped-friendly plain-text address without an
+     obfuscation strategy you're comfortable with. -->
+
+## What to reach out about
+
+- **Feedback** on anything on this site — the design, the writing, the projects.
+- **Collaboration** on any of the projects on the [projects page](projects.qmd).
+- **Conversation** about analytics, experimentation, or technical product leadership in general.
+
+## What I'm less useful for
+
+- Vendor pitches and SEO outreach. Nothing personal — the answer is no.
+
+I read everything, even when the reply is slow.

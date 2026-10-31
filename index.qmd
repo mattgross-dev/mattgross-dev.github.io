@@ -1,0 +1,57 @@
+---
+title: "Matt Gross | Technical Product Leadership, Data Analytics & Optimization"
+description: "Portfolio of Matt Gross — technical product leadership, data analytics, and optimization. Current projects, writing, and ways to get in touch."
+title-block: false
+toc: false
+listing:
+  id: recent-writing
+  contents: posts
+  type: default
+  sort: "date desc"
+  max-items: 3
+---
+
+::: {.hero}
+::: {.hero-eyebrow}
+Technical Product Leadership · Data Analytics · Optimization
+:::
+
+# Matt Gross
+
+I build products that help teams make better decisions with data — analytics platforms, experimentation systems, and the workflows and teams that make them work in practice.
+
+Right now that means working on a small set of [planned projects](projects.qmd), writing about [product leadership and analytics](writing.qmd), and building this site out in the open as I go.
+
+::: {.hero-actions}
+[View projects](projects.qmd){.btn-cta} [Read the writing](writing.qmd){.btn-outline-cta} [Get in touch](contact.qmd){.btn-outline-cta}
+:::
+:::
+
+## What I focus on {.eyebrow-heading}
+
+::: {.focus-grid}
+::: {.focus-card}
+### Product leadership
+
+Setting direction for technical products, defining what "better" means with metrics, and keeping engineering, data, and business teams pointed at the same problem.
+:::
+
+::: {.focus-card}
+### Data & analytics
+
+Turning messy data into decisions: measurement design, trustworthy metrics, self-serve tooling, and the unglamorous work that makes numbers believable.
+:::
+
+::: {.focus-card}
+### Optimization & experimentation
+
+Running trustworthy experiments: proper power analysis, honest guardrails, and building the cadence that turns A/B tests into a real learning system.
+:::
+:::
+
+## Recent writing {.eyebrow-heading}
+
+::: {#recent-writing}
+:::
+
+See all posts on the [writing page](writing.qmd).
