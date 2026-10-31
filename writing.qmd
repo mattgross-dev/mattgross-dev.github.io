@@ -8,11 +8,11 @@ listing:
   type: default
   sort: "date desc"
   categories: true
-feed:
-  title: "Matt Gross — Writing"
-  description: "Essays on product leadership, data analytics, experimentation, and technical careers."
-  type: summary
-  categories: [Analytics, Leadership, Product, Career]
+  feed:
+    title: "Matt Gross — Writing"
+    description: "Essays on product leadership, data analytics, experimentation, and technical careers."
+    type: partial
+    categories: [Analytics, Leadership, Product, Career]
 ---
 
 Notes and essays on building data products, leading technical teams, and the craft of making decisions with evidence. Subscribe via [RSS](writing.xml).

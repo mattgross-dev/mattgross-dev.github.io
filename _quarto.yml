@@ -6,11 +6,16 @@
 project:
   type: website
   output-dir: _site
+  # After each render, inject og:url (and canonical as a fallback) into every
+  # page — quarto emits no og:url on its own.
+  post-render: scripts/og-canonical.js
   # Copied verbatim into _site so GitHub Pages keeps the custom domain (CNAME)
-  # and crawlers can find the sitemap (robots.txt).
+  # and crawlers can find the sitemap (robots.txt). The woff2 files in fonts/
+  # are the self-hosted @font-face sources referenced by styles/site.css.
   resources:
     - CNAME
     - robots.txt
+    - fonts
 
 website:
   title: "Matt Gross"
@@ -43,7 +48,7 @@ website:
         text: "RSS feed"
         href: "writing.xml"
 
-  footer:
+  page-footer:
     left: "© 2026 Matt Gross"
     center: "Built with [Quarto](https://quarto.org)"
     right: "[RSS](writing.xml) · [GitHub](https://github.com/mattgross-dev)"
@@ -53,17 +58,18 @@ format:
     theme:
       light: [litera, styles/custom.scss]
       dark: [slate, styles/custom-dark.scss]
-    # Google Fonts are downloaded and self-hosted at render time (no runtime
-    # requests to Google, better privacy and performance).
-    font:
-      - family: "Newsreader"
-        source: "google"
-      - family: "Inter"
-        source: "google"
-      - family: "JetBrains Mono"
-        source: "google"
-        code: true
+    # Fonts are self-hosted: the @font-face rules at the top of
+    # styles/site.css serve the woff2 files in fonts/ (copied into _site via
+    # project resources), so no request is made to Google Fonts at page-view
+    # time. Body/heading/code font stacks themselves come from the SCSS
+    # variables in styles/custom.scss and styles/custom-dark.scss.
     css: styles/site.css
+    # The site contains no math markup, so render any math as plain HTML
+    # instead of pandoc's default MathJax method, which would emit a
+    # <script> that loads MathJax from jsdelivr on the listing pages.
+    html-math-method: plain
+    # Emit <link rel="canonical"> on every page, derived from site-url.
+    canonical-url: true
     toc: true
     toc-depth: 2
     anchor-sections: false
