@@ -243,6 +243,38 @@ blockquote {
   margin-bottom: 1.1rem;
 }
 
+/* Social icon links beside the name (inline SVGs live in index.qmd) */
+.hero h1 .hero-social {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.38em;
+  margin-left: 0.45em;
+  vertical-align: middle;
+}
+
+.hero h1 .hero-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.1em;
+  border-radius: 0.3em;
+  color: var(--mg-accent);
+  text-decoration: none;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.hero h1 .hero-social a:hover,
+.hero h1 .hero-social a:focus {
+  color: var(--mg-accent-strong);
+  background-color: var(--mg-accent-soft);
+}
+
+.hero h1 .hero-social svg {
+  width: 0.55em;
+  height: 0.55em;
+  display: block;
+}
+
 .hero .lede {
   font-size: 1.3rem;
   line-height: 1.6;
