@@ -4,5 +4,10 @@
 author: "Matt Gross"
 toc: false
 
+# TEMPORARY: unpublish all posts by marking them as drafts.
+# Drafts are excluded from listings, navigation, search, feeds, and the
+# sitemap (their URLs render as blank pages). Delete this line to republish.
+draft: true
+
 # Categories used across this site's posts:
 # Analytics, Leadership, Product, Career
