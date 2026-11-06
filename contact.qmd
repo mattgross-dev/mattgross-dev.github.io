@@ -29,4 +29,4 @@ The best way to reach me right now is through GitHub — [github.com/mattgross-d
 
 I read everything, even when the reply is slow.
 
-P.S. If you're wondering what this site collects about you: nothing. The [privacy policy](privacy.qmd) has the details.
+P.S. If you're wondering what this site collects about you: nothing. The [privacy policy](privacy.qmd) has the details, and the [terms of service](tos.qmd) cover the rest of the fine print.

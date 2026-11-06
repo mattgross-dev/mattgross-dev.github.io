@@ -45,4 +45,4 @@ If these practices change in a way that matters, this page changes with them and
 
 ## Contact
 
-Questions about anything on this page are welcome through the routes on [the contact page](contact.qmd) — GitHub is fastest. If the question is sensitive, flag that in the issue and we can take it from there.
+Questions about anything on this page are welcome through the routes on [the contact page](contact.qmd) — GitHub is fastest. If the question is sensitive, flag that in the issue and we can take it from there. The [terms of service](tos.qmd) live next door, in the same plain style.

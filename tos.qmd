@@ -1,0 +1,51 @@
+---
+title: "Terms of Service"
+description: "Terms of service for mattgross.com — a short, plain-English agreement adapted from Creative Commons' CC0-dedicated terms of use: read, link, and quote with attribution; no warranties, no professional advice."
+toc: true
+---
+
+::: {.callout-note}
+## Short version
+
+This is a personal site, offered as-is and for free. Read it, link to it, quote it with attribution. Nothing on it is professional advice, I can change or remove anything at any time, and I'm not liable for how you use what you find here. Effective date: November 6, 2026.
+:::
+
+## Where these terms come from
+
+Like the [privacy policy](privacy.qmd), these terms are adapted from Creative Commons — here, the [Creative Commons Master Terms of Use](https://creativecommons.org/terms/), which Creative Commons has dedicated to the public domain under CC0 and explicitly invites others to reuse and adapt. I've kept its structure and spirit, trimmed what doesn't apply to a static personal site, and written the rest in the plain voice this site uses everywhere.
+
+## The agreement
+
+These terms govern your use of **mattgross.com**. By using the site you accept them; if you don't agree with them, please don't use the site. They are the whole agreement between us about the site, and they're written with words like "you" and "I" rather than "the party of the first part" on purpose.
+
+## The site and its content
+
+This is a personal site — my writing, my projects, and my opinions. Unless a page or repository says otherwise, the content is © 2026 Matt Gross, all rights reserved. Reading, linking, and quoting are always welcome; attribution and a link back are the only ask. Code I publish lives in GitHub repositories and carries its own open-source license, which governs that code instead of this page. For anything beyond reading, linking, and quoting — republishing posts wholesale, running the text as your own, or folding the site into a commercial product or dataset — ask first through [the contact page](contact.qmd).
+
+## No professional advice
+
+I write about analytics, experimentation, product leadership, and careers — from experience, but as opinion. Nothing on this site is legal, financial, career, or other professional advice, nothing here is tailored to your situation, and reading it creates no professional relationship between us. Decisions you make based on what you read are yours.
+
+## Hosting and third-party sites
+
+The site is hosted by [GitHub Pages](https://pages.github.com/), so GitHub's own terms of service and privacy statement — linked from [the privacy policy](privacy.qmd) — apply to the hosting layer too. I link to third-party sites when they're useful; I don't control them, don't endorse everything on them, and am not responsible for their content or practices. Product and company names that appear here belong to their owners; I use them to refer to things, not to imply affiliation or endorsement.
+
+## Fair use of the site
+
+The asks are small: don't attack or probe the site, don't hammer it in ways that degrade it for everyone else, and don't misrepresent my content as yours. I can change, restrict, or withdraw any part of the site at any time, for any reason — it's a personal site offered as a courtesy, not a service with a service-level agreement.
+
+## The site is provided "as is"
+
+The site and everything on it are provided as-is, with no warranties of any kind — no promise that content is accurate, complete, or current; that the site will be available, uninterrupted, or error-free; or that any of it is fit for a particular purpose.
+
+## Limitation of liability
+
+To the fullest extent the law allows, I am not liable for any damages, losses, or harm arising from your use of the site or your reliance on anything on it. Some jurisdictions don't allow some of these limitations; where that's true, they apply only to the extent the law there permits.
+
+## Changes to the site and these terms
+
+Both the site and these terms can change at any time. When the terms change, the effective date at the top moves with them, and continuing to use the site means you accept the updated terms. The [git history for this page](https://github.com/mattgross-dev/mattgross-dev.github.io/commits/main/tos.qmd) keeps the full record. If a court ever strikes down one part of these terms, the rest still stand.
+
+## Contact
+
+Questions about these terms — including good-faith copyright complaints about anything on this site — go through the routes on [the contact page](contact.qmd). GitHub is fastest.
