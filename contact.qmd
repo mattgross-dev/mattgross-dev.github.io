@@ -28,3 +28,5 @@ The best way to reach me right now is through GitHub — [github.com/mattgross-d
 - Vendor pitches and SEO outreach.
 
 I read everything, even when the reply is slow.
+
+P.S. If you're wondering what this site collects about you: nothing. The [privacy policy](privacy.qmd) has the details.

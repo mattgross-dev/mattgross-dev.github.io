@@ -51,7 +51,7 @@ website:
   page-footer:
     left: "© 2026 Matt Gross"
     center: "Built with [Quarto](https://quarto.org)"
-    right: "[RSS](writing.xml) · [GitHub](https://github.com/mattgross-dev)"
+    right: "[RSS](/writing.xml) · [Privacy](/privacy.html) · [GitHub](https://github.com/mattgross-dev)"
 
 format:
   html:

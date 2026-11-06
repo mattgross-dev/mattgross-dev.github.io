@@ -1,0 +1,48 @@
+---
+title: "Privacy"
+description: "Privacy practices for mattgross.com — what this site collects (nothing), what GitHub Pages logs as host, and how to reach me with questions."
+toc: true
+---
+
+::: {.callout-note}
+## Short version
+
+This is a static site with no analytics, no cookies, no trackers, and no forms, and I collect no personal information from anyone who reads it. The only data your visit touches is the routine server-log record GitHub Pages keeps in order to serve the site at all.
+
+This page is short because the story is short. Effective date: November 6, 2026.
+:::
+
+## Principles
+
+Two rules govern this site, adapted from the [Creative Commons CC0 privacy policy](https://creativecommons.org/privacy/):
+
+1. **Collect as little as possible.** The easiest data to protect is the data that never exists.
+2. **Be plain about what does get collected.** Everything below is just that.
+
+## What this site collects
+
+**Nothing.** When you read a page here, I learn nothing about you: no identifier, no session, no analytics event, no profile. There is no newsletter, no comment form, no search box, no login. The pages are plain HTML, CSS, and a little self-hosted JavaScript — even the fonts are served from this domain — so nothing you do here is reported to a third party.
+
+## Cookies and tracking
+
+This site sets no cookies and runs no trackers: nothing from ad networks, analytics vendors, or social platforms is loaded while you browse. The only thing kept on your device is your light/dark theme choice, which lives in your own browser and never leaves it.
+
+## What GitHub Pages sees
+
+The site is hosted by [GitHub Pages](https://pages.github.com/). As the hosting provider, GitHub automatically records the standard technical log every web server keeps — your IP address, browser and device type, the date and time of requests, and the pages requested. That data goes to GitHub, not to me: I don't see those logs and can't identify anyone from them. How GitHub handles such data is described in [GitHub's privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+
+## Analytics
+
+There are none — no Google Analytics, no Plausible, no telemetry of any kind. If I ever add measurement to this site, it will be cookieless and minimal, and this page will be updated before it goes live.
+
+## Security and retention
+
+Nothing is collected, so there is nothing to secure, retain, or delete on my end. Whatever GitHub retains as part of operating Pages follows GitHub's own retention practices, described in the privacy statement linked above.
+
+## Changes to this page
+
+If these practices change in a way that matters, this page changes with them and the effective date at the top moves with it. The [git history for this page](https://github.com/mattgross-dev/mattgross-dev.github.io/commits/main/privacy.qmd) keeps the full record.
+
+## Contact
+
+Questions about anything on this page are welcome through the routes on [the contact page](contact.qmd) — GitHub is fastest. If the question is sensitive, flag that in the issue and we can take it from there.
